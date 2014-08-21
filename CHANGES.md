@@ -1,8 +1,34 @@
 # python-markdown2 Changelog
 
-## python-markdown2 2.1.1 (not yet released)
+## python-markdown2 2.2.3 (not yet released)
 
 (nothing yet)
+
+
+## python-markdown2 2.2.2
+
+- [pull #156] Footnotes XML compatibility.
+- [pull #157] Horizontal rule minimum length.
+- [pull #162] Fix escaping fenced code block with safe mode
+- [pull #163] Fix code highlight with safe mode
+
+
+## python-markdown2 2.2.1
+
+- [issue #142 pull #141] Fix parentheses and spaces in urls.
+- [issue #88 issue #95 pull #145] Fix code blocks in code blocks with syntax highlighting.
+- [issue #113 issue #127 via pull #144] Fix fenced-code-blocks html and code output.
+- [pull #133] Unify the -/= and ## style headers and fix TOC order
+- [pull #146] tag-friendly extra to require that atx headers have a space after #
+
+
+## python-markdown2 2.2.0
+
+- [issue #135] Fix fenced code blocks odd rendering.
+- [pull #138] specify shell in Makefile
+- [pull #130] break-on-newline extra
+- [pull #140] Allow html-classes for img
+- [pull #122] Allow parentheses in urls
 
 
 ## python-markdown2 2.1.0
